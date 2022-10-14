@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  /* border: 1px solid red; */
 }
 
 .app {
@@ -27,9 +28,9 @@
 }
 
 .black {
-  background-color: rgb(8, 8, 56);
+  background-color: rgb(54, 54, 148);
 }
 
 .white {
-  background-color: rgb(180, 207, 145);
+  background-color: rgb(202, 193, 150);
 }
