@@ -27,4 +27,9 @@ export class Figure {
     this.name = FigureNames.FIGURE;
     this.id = Math.random();
   }
+
+  canMovie(target: Cell): boolean {
+    return true;
+  }
+  moveFigure(target: Cell) {}
 }
