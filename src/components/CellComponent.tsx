@@ -6,7 +6,7 @@ interface CellComponentProps {
 }
 
 const CellComponent: FC<CellComponentProps> = ({ cell }) => {
-  return <div className={['cell', cell.color].join(' ')}></div>;
+  return <div className={['cell', cell.color].join(' ')}>{cell.figure}</div>;
 };
 
 export default CellComponent;
